@@ -1,4 +1,4 @@
-class Ab  
+class Abc 
 {
 	int a,b;
 }
@@ -7,7 +7,7 @@ class Ba extends Ab
 	int a,b;
 	void setdata()
 	{
-		a=1245;
+		a=1635;
 		b=1342;
 		super.a=4567;
 		super.b=3452;
