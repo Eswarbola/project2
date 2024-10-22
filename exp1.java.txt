@@ -1,0 +1,29 @@
+class Ab  
+{
+	int a,b;
+}
+class Ba extends Ab
+{
+	int a,b;
+	void setdata()
+	{
+		a=1245;
+		b=1342;
+		super.a=4567;
+		super.b=3452;
+	}
+	void display()
+	{
+		System.out.println("the parent class members are "+super.a+" "+super.b);
+		System.out.println("child class memebers are "+a+" "+b);
+	}
+}
+class Ex90
+{
+  public static void main(String args[])
+  {
+     Ba b=new Ba();
+     b.setdata();
+     b.display();
+  }
+}
